@@ -1,0 +1,31 @@
+/* 
+Types should be in const to avoid typos and duplication 
+since it's a string and could be easily miss spelled
+
+@ Created By Rajesh
+*/
+
+export const API_URL = 'https://gameyconnect.com/api/v1/';
+
+export const USER_AUTH = {
+    SIGNIN_REQUEST: 'SIGNIN_REQUEST',
+    SIGNIN_REQUEST_SUCCESS: 'SIGNIN_REQUEST_SUCCESS',
+    SIGNIN_REQUEST_FAIL: 'SIGNIN_REQUEST_FAIL',
+    SIGNUP_REQUEST: 'SIGNUP_REQUEST',
+    SIGNUP_REQUEST_SUCCESS: 'SIGNUP_REQUEST_SUCCESS',
+    SIGNUP_REQUEST_FAIL: 'SIGNUP_REQUEST_FAIL',
+    SIGNOUT_USER: 'SIGNOUT_USER',
+    RESET_AUTH: 'RESET_AUTH'
+}
+
+export const LOCATION = {
+    COUNTRY_REQUEST: 'COUNTRY_REQUEST',
+    COUNTRY_SUCCESS: 'COUNTRY_SUCCESS',
+    COUNTRY_FAIL: 'COUNTRY_FAIL',
+    STATE_REQUEST: 'STATE_REQUEST',
+    STATE_SUCCESS: 'STATE_SUCCESS',
+    STATE_FAIL: 'STATE_FAIL',
+    CITY_REQUEST: 'CITY_REQUEST',
+    CITY_SUCCESS: 'CITY_SUCCESS',
+    CITY_FAIL: 'CITY_FAIL'
+}
