@@ -103,8 +103,8 @@ class Forgotpassword extends Component {
                                                     <br></br>
                                  <button type="submit" className="btn btn-primary">Forgotpassword</button>
                                  <br></br>
-                                       <Link href="/">
-                                       <a className="return-store">or Return to Signup</a>
+                                       <Link href="/ change-password">
+                                       <a className="reset-paasword">Reset password</a>
                                        </Link>
                                 </Col>
                              </Form.Row>
